@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ $# == 1 ]
+then
+git config --global user.email dylanortizb@gmail.com
+git add .
+#git comit -m
+git commit -m $1
+git push origin master
+fi
